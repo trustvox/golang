@@ -1,5 +1,5 @@
 FROM golang
-MAINTAINER Gabriel Custódio <gabriel.martins@reclameaqui.com.br>
+LABEL Gabriel Custódio <gabriel.martins@reclameaqui.com.br>
 
 # Install clang and define as default compiler.
 # Required in order to use memory sanitizer
